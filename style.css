@@ -1,0 +1,25 @@
+
+body{
+	background-color: #cbdad5;
+}
+.alignleft { 
+text-align: left;
+}
+.horoscope {
+	float: left;
+	padding: 10px;
+}
+.aligncenter {
+display: block;
+margin: 10px auto 10px;
+text-align: center;
+}
+.clearfloat {
+	clear:both;
+}
+#container {
+	background-color: #fff;
+	width:85%;
+	margin: 10px;
+	padding: 40px;
+}
