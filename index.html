@@ -99,10 +99,10 @@
 	});
 
 var answer = prompt ("Are you feeling like an imposter today? Type yes, no or kinda");
-  if (answer == 'yes') {
+  if (answer.toLowerCase() === 'yes'.toLowerCase()) {
       alert('Click on the image above "I\'m a total imposter", then scroll down.');   
   }
-  else if (answer == 'no'){
+  else if (answer.toLowerCase() === 'no'.toLowerCase()){
       alert('Click on the image above "Imposter? Me? No, I got this!", then scroll down.');
   }
   else {
