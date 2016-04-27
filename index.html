@@ -15,7 +15,7 @@
  <p>Select the image below that shows how you feel.</p>
  	<a name="#test"></a>
  	<div class="aligncenter test">
-		<div class ="horoscope"><a href="#" class="stressed1"><img src="stressed.jpg" height="200" width="275"></a><p>I'm a total Imposter!</p></div>
+		<div class ="horoscope"><a href="#" class="stressed1"><img src="stressed.jpg" height="200" width="275"></a><p>I'm a Total imposter!</p></div>
 		<div class ="horoscope">
 			<a href="#" class="kindOfStressed1"><img src="kindofstressed.jpg" height="200" width="459"></a><p>I kind of feel like an imposter</p></a>
 		</div>
@@ -24,7 +24,7 @@
 		<hr size="2">
 		<section id='stressed1' class="alignleft"><img src='imposter.jpg' height='300' width='350'><h3>You Chose: I feel like an imposter...</h3>
 			<p>What does Tina Fey, Dr. Margaret Chan (Chief of the WHO), Maya Angelo, Emma Watson, Kate Winslet, Neil Gamon and Don Cheadle all have in common?
-			They have all felt like frauds who would be found out.  In fact approximately 70% of people have suffered from Imposter Syndrome.</p>
+			They have all felt like frauds who could be found out.  In fact approximately 70% of people have suffered from Imposter Syndrome.</p>
 			<p>Imposter Sydrome can be divided into three subcategory:</p>
 			<ol>
 				<li>Feelings of being a fake - the person feels that s/he does not deserve success.</li>
@@ -97,6 +97,18 @@
 	    //e.preventDefault();
 	    $("#" + $(this).attr("class")).show().siblings('section').hide();
 	});
+
+var answer = prompt ("Are you feeling like an imposter today? Type yes, no or kinda");
+  if (answer.toLowerCase() === 'yes') {
+      alert('Click on the image above "I\'m a total imposter", then scroll down.');   
+  }
+  else if (answer.toLowerCase() === 'no'){
+      alert('Click on the image above "Imposter? Me? No, I got this!", then scroll down.');
+  }
+  else {
+    alert('Click on image above "I kind of feel like an imposter", then scroll down.');
+  }
+
 </script>
 </body>
 </html>
